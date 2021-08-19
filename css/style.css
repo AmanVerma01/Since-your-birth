@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(/img/star.png);
+    display: flex;
+}
+.logo{
+    display: inline;
+    
+}
+.logo img{
+    margin: 15%;
+    width: 120px;
+    height: 120px;
+}
